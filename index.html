@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <HTML>
 <head>
-	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta 
+	name='viewport' 
+	content='width=device-width, initial-scale=1.0, user-scalable=0' 
+/>
 	  <title>Pablo's Place</title>
-	  <link href="https://fonts.googleapis.com/css?family=Chewy|Indie+Flower|Righteous|Abel|Kalam" rel="stylesheet">
-          <link href="main.css" rel="stylesheet" type="text/css"/>
+		<link href="https://fonts.googleapis.com/css?family=Chewy|Indie+Flower|Righteous|Abel|Kalam" rel="stylesheet">
+		<link rel="icon" href="https://cdn4.iconfinder.com/data/icons/star-wars-13/50/28-512.png">
+		<link href="main.css" rel="stylesheet" type="text/css"/>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -41,23 +47,23 @@
 					<div class="Title" style="font-size:25px;height:60px;">
 						<p>About Me</p>
 					</div>
-					<p style="text-align:center;font-family: 'Abel', sans-serif;padding-left: 50px;padding-right: 50px">
-						Welcome to my page! <br>
-						As you can probably tell by my nav bar, my name is Pablo. I am a computer engineering student at Florida International University (Go Panthers!) with a passion for software development. I am currently working with a team for Upsilon Pi Epsilon to develop the next mobile app for ShellHacks 2019 happening at FIU in the fall. I also currently work at Baptist Hospital as a Client Service Representative, helping patients receive their results promptly and troubleshooting issues with the Cerner Lab program. <br>
-						Although I've always had a passion for technology, my passion for software development started with a MatLab class that I took when I was finishing my first Bachelor's in Biomedical Engineering. I fell in love with the idea of being able to manipulate code to represent an idea and solve problems. I saw the potential that software development had to help hundreds or thousands of people across the world. I also love challenges, so fixing bugs within code became an act that I enjoyed. I would stay up for hours trying to fix bugs and write more code. It led me to pursue my second Bachelor's in Computer Engineering. <br>
-						I also love helping people. Ever since I was young, I've always found the idea of helping others to be one of the most satisfying actions that one could perform. Maybe it was the lessons I learned from watching all the Star Wars movies, but up to this day I believe that helping one another is the key to happiness. I know that software development can help me achieve that and give me some interesting challenges along the way. 
-
+					<div class="AboutMeWords">
+					    <p>
+					     	Welcome to my page! <br>
+					    	As you can probably tell by my nav bar, my name is Pablo. I've always had a passion for technology, but my passion for software development started with a MatLab class that I took when I was finishing my first Bachelor's in Biomedical Engineering. I fell in love with the idea of being able to manipulate code to represent an idea and solve problems. I saw the potential that software development had to help hundreds or thousands of people across the world. I also enjoy challenges, so fixing bugs within code became an act that I enjoyed. <br> <br>
+					    	I love helping people. Ever since I was young, I've always found the idea of helping others to be one of the most satisfying actions that one could perform. Maybe it was the lessons I learned from watching all the Star Wars movies, but up to this day I believe that helping one another is the key to saving the world. I know that software development can help me achieve that and give me some interesting challenges along the way. 
+					</div>
 					</p>
 	    </div>
 	</div>
-	<div class="InfoCards">
+	<div class="Section1">
 		  <div class="Projects">
-          <div class="Title" style="height: 60px;"><h1>Projects</h1></div>
+          <div class="Title"><h1>Projects</h1></div>
 		      <div class="TwoMain">
             <div class="ProjDesc1">
 				      <h3>Dr.Feel Good</h3>
-			        <img src="Drfeelgood.PNG">
-			        <p style="text-align:center; width:400px;height: 150px;font-family: 'Abel', sans-serif;">
+			        <img class="Proj1Img" src="Drfeelgood.PNG">
+			        <p class="Proj1Word">
 					      A web application whose goal was to promote mental health awareness. It used machine learning to detect sentiment by the user's words and would then push quotes based upon their response. A recurrent neural network was used on the machine learning side, an API was created by using Flask, and Wix Editor was utilized to demo the website. </p>
 				      <div class="Award">
 				          <img src="https://www.4geeksacademy.co/wp-content/uploads/2018/05/shell-hacks-e1527044176211.png">
@@ -68,24 +74,25 @@
 		        </div>
 		        <div class="ProjDesc2">
 				      <h3>Starburst</h3>
-			        <img src="Starburst.PNG">
-			        <p style="text-align: center;width: 400px; height: 150px;font-family: 'Abel', sans-serif;">
+			        <img class="Proj2Img" src="Starburst.PNG">
+			        <p class="Proj2Word">
 					        A web application aimed toward helping students find community service hours as well as to help organizers create their own events. It was built using React and Bootstrap UI framework to handle the dynamic content in the front-end, and Google firebase firestore & user authentication for the back-end.<br>
 				        	Note: Mobile-Friendly</p>
-				      <div class="Award" style="width:350px;">
-					        <img style="width: 50px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/General_Electric_logo.svg/500px-General_Electric_logo.svg.png" >
+				      <div class="Award">
+					        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/General_Electric_logo.svg/500px-General_Electric_logo.svg.png" >
 					        <p style="text-align: center;font-family: 'Abel', sans-serif;">
-					          GE Digital "Best Web App Using React"<br>MangoHacks 2019</p>
+					          GE "Best Web App Using React"<br>MangoHacks 2019</p>
 			        </div>
 			        <a class="DevButton" href="https://devpost.com/software/starburst" target="_blank"><img src="DevButton.png"></a>
 		        </div>
 		      </div>
-		  </div>
+			</div>
+		</div>
+		<div class="Section2">
 		  <div class="Education">
-	        <div class="Title"><h1>Education</h1></div>
-		      <div class="Desc">
+					<div class="Title"><h1>Education</h1></div>
 		          <div class="EduDesc">
-		            <img src="http://users.cs.fiu.edu/~mullerk/logo/fiuhorizontaltrans.png" >
+		            <img style="margin-right: 25px;" src="http://users.cs.fiu.edu/~mullerk/logo/fiuhorizontaltrans.png" >
 		            <div style="font-family: 'Abel', sans-serif;width:250px;">
 		                <p>B.S., Biomedical Engineering</p>
 		                <p>GPA:3.24 | Major GPA: 3.48</p>
@@ -93,45 +100,52 @@
 		            </div>
 		          </div>
 		          <div class="EduDesc">
-		            <img src="http://users.cs.fiu.edu/~mullerk/logo/fiuhorizontaltrans.png" >
+		            <img style="margin-right: 25px;" src="http://users.cs.fiu.edu/~mullerk/logo/fiuhorizontaltrans.png" >
 		            <div style="font-family: 'Abel', sans-serif;width:250px">
 				            <p>B.S., Computer Engineering</p>
 				            <p>GPA:3.31 | Major GPA: 3.67</p>
 				            <p>Grad Date: Spring 2020</p>
 				        </div>
-		          </div>
-		      </div>
+							</div>
+							<div class="EduDesc">
+									<img style="margin-right: 25px;" src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/UP51iFcIRiCIV51tZTgw" >
+									<div style="font-family: 'Abel', sans-serif;width:250px">
+											<p>Network+ Certified</p>
+											<p>Certified Date: 11/30/2018</p>
+											<p>Exp. Date: 11/30/2021</p>
+									</div>
+								</div>
 		  </div>
 		  <div class="Leadership">
 			   	<div class="Title"><h1>Leadership</h1></div>
-				  <div class="Desc">
-				    <div class="LeadDesc">
-						  <img src="http://users.cs.fiu.edu/~mullerk/logo/fiuhorizontaltrans.png" >
-						  <p style="font-family: 'Abel', sans-serif;width:200px">Dean's List: Spring 2013, 2014, 2017, and Fall 2018<p>
+					 <div class="LeadDesc">
+						  <img style="margin-right: 25px;" src="http://users.cs.fiu.edu/~mullerk/logo/fiuhorizontaltrans.png" >
+						  <p style="font-family: 'Abel', sans-serif;width:250px">Dean's List: Spring 2013, 2014, 2017, and Fall 2018<p>
 				    </div>
 				    <div class="LeadDesc">
-						  <img src="http://www.ieyenews.com/wordpress/wp-content/uploads/2017/08/Screen-shot-2017-08-08-at-3.34.36-PM.png" >
-						  <p  style="font-family: 'Abel', sans-serif;width:200px">2017 Lab Employee of the Year<p>
+						  <img style="margin-right: 25px;" src="http://www.ieyenews.com/wordpress/wp-content/uploads/2017/08/Screen-shot-2017-08-08-at-3.34.36-PM.png" >
+						  <p  style="font-family: 'Abel', sans-serif;width:250px">2017 Lab Employee of the Year<p>
 						</div>
 				    <div class="LeadDesc">
-						  <img src="https://www.pngkey.com/png/detail/243-2430865_upsilon-pi-epsilon-upe-fiu-logo.png" >
-						  <p  style="font-family: 'Abel', sans-serif;width:200px">Member of Upsilon Pi Epsilon Honor Society<p>
+						  <img style="margin-right: 25px;" src="https://www.pngkey.com/png/detail/243-2430865_upsilon-pi-epsilon-upe-fiu-logo.png" >
+						  <p  style="font-family: 'Abel', sans-serif;width:250px">Member of Upsilon Pi Epsilon Honor Society<p>
 					  </div>
 				    <div class="LeadDesc">
-						  <img src="http://users.cs.fiu.edu/~mullerk/logo/fiuhorizontaltrans.png" >
-						  <p  style="font-family: 'Abel', sans-serif;width:200px">Represented the Asian Student Union Club as CSO Rep<p>
+						  <img style="margin-right: 25px;" src="http://users.cs.fiu.edu/~mullerk/logo/fiuhorizontaltrans.png" >
+						  <p  style="font-family: 'Abel', sans-serif;width:250px">Represented the Asian Student Union Club as CSO Rep<p>
 				    </div>
-				  </div>
 			</div>
+		</div>
+		<div class="Section3">
 			<div class="WorkExp">
-					<div class="Title"><h1>Work Experience</h1></div>
+					<div class="Title"><h1>Experience</h1></div>
           <div class="Jobs">
 				      <div class="WorkDesc">
 								  <div class="TopFrame">
-									   <img style="margin-right:30px"  style="margin-right:30px;" src="https://www.pngkey.com/png/detail/243-2430865_upsilon-pi-epsilon-upe-fiu-logo.png" >
+									   <img src="https://www.pngkey.com/png/detail/243-2430865_upsilon-pi-epsilon-upe-fiu-logo.png" >
 									   <p  style="font-family: 'Abel', sans-serif;width:200px;text-align: center"> <b>ShellHacks Mobile Developer</b><br> Feb 2018 - Present </p>
 									</div>
-									<div style="width: 400px;font-family: 'Abel', sans-serif;display: flex;justify-content: center;">
+									<div class="WorkDescWords">
 										  <ul>
 											   <li>Developing the Mobile App for the ShellHacks 2019 Fall Hackathon. </li>
 											   <li>Working with React Native, GitHub, HTML, and CSS. </li>
@@ -143,7 +157,7 @@
 											<img style="margin-right:30px"  src="http://www.ieyenews.com/wordpress/wp-content/uploads/2017/08/Screen-shot-2017-08-08-at-3.34.36-PM.png" >
 											<p  style="font-family: 'Abel', sans-serif;width:200px;text-align: center"> <b>Client Service Representative</b><br> June 2014 - Present </p>
 									 </div>
-									 <div style="width: 400px;font-family: 'Abel', sans-serif;display: flex;justify-content: center;">
+									 <div class="WorkDescWords">
 										  <ul>
 											   <li>Troubleshooting issues in the lab system as a Cerner superuser</li>
 											   <li>Managing four to five couriers for pick-ups and drop-offs. </li>
@@ -155,7 +169,7 @@
 											<img style="margin-right:30px"  src="http://www.ieyenews.com/wordpress/wp-content/uploads/2017/08/Screen-shot-2017-08-08-at-3.34.36-PM.png" >
 											<p  style="font-family: 'Abel', sans-serif;width:200px;text-align: center"> <b>Lab Technical Aide</b><br> May 2014 - May 2018 </p>
 									 </div>
-									 <div style="width: 400px;font-family: 'Abel', sans-serif;display: flex;justify-content: center;">
+									 <div class="WorkDescWords">
 										  <ul>
 											   <li>Delivered excellent customer service to the doctors, nurses, and staff in the hospital. </li>
 											   <li>Monitored, prioritized, created, and processed orders. </li>
@@ -167,7 +181,7 @@
 											<img style="margin-right:30px" src="http://users.cs.fiu.edu/~mullerk/logo/fiuhorizontaltrans.png" >
 											<p  style="font-family: 'Abel', sans-serif;width:200px;text-align: center"> <b>Head Tutor</b><br> May 2011 - April 2014 </p>
 									 </div>
-									 <div style="width: 400px;font-family: 'Abel', sans-serif;display: flex;justify-content: center;">
+									 <div class="WorkDescWords">
 										  <ul>
 											   <li>Provided tutoring services in Chemistry, Calculus, Biology, and Spanish. </li>
 											   <li>Managed a group of three to four people. </li>
@@ -176,6 +190,8 @@
 							</div>
 					</div>
 			</div>
+		</div>
+	<div class="Section4">
 			<div class="Skills">
 				 <div class="Title" style="color:white;"><h1>Skills</h1></div>
 				 <div class="SkillsBox">
@@ -208,8 +224,10 @@
 			Made by
 			</p>
 			<p style="text-align: center;width:100%;color:white;font-family: 'Kalam', cursive;font-size: 20px;">Pablo Isaac Cordoba</p>
-			<p style="text-align: center;width:100%;font-family: 'Abel', sans-serif;color:white;">Email: pabloc0620@gmail.com | Phone: (305)-458-8157 | Miami, FL</p>
-	</div>
-	 
+			<div class="BottomInfo">
+			<p>| Email: pabloc0620@gmail.com | Phone: (305)-458-8157 | Miami, FL |</p>
+			</div>
+	<button id="topBtn"><i class="fas fa-caret-square-up"></i></button>
+	<script type="text/javascript" src="script.js"></script>
 </body>
 </HTML>
