@@ -1,302 +1,303 @@
 body {
-  background-color: #ff1a1a;
-  min-width: 600px;
-}
-
-.NavBar{
-    display: flex;
-    overflow: hidden;
-    height: 60px;
-    padding: 0;
-    margin: 0;
-    background-color: black;
-    top:0;
-    left: 0;
-    color: white;
-    width:100%;
-    position: fixed;
-}
-
-.NavBar .NavButton{
-    margin:0;
-    background: none;
-    padding: 0;
-    width: 60px;
+   background-color: #ff1a1a;
+   min-width: 600px;
+ }
+ 
+ .NavBar{
+     display: flex;
+     overflow: hidden;
+     height: 60px;
+     padding: 0;
+     margin: 0;
+     background-color: black;
+     top:0;
+     left: 0;
+     color: white;
+     width:100%;
+     position: fixed;
+ }
+ 
+ .NavBar .NavButton{
+     margin:0;
+     background: none;
+     padding: 0;
+     width: 60px;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     border: none;
+     border-right: 1px solid white;
+ }
+ 
+ .bar1,.bar2,.bar3{
+     width: 25px;
+     padding:0;
+     border: none;
+     margin:2px;
+     height: 2px;
+     background-color:white;
+ }
+ 
+ .NameBar{
+   display: flex;
+   flex-grow: 2;
+   justify-content: center;
+   align-items: center;
+   font-size: 28px;
+   font-family: 'Righteous', cursive;
+ }
+ 
+ .NavLinks {
+    margin-top: 75px;
     display:flex;
+    color: black;
+    font-size: 20px;
+    justify-content: space-evenly;
+    
+ }
+ 
+ .Link img {
+    width: 50x;
+    height: 50px;
+    animation-name: test1;
+    animation-duration: 1s;
+    object-fit: cover;
+ }
+ 
+ @keyframes test1 {
+    0% {transform: translateX(-500px)}
+    100%{transform: translateX(0px)}
+ }
+ 
+ 
+ .AboutMe {
+   width: 100%;  
+   display: flex;
+   justify-content: center;
+  
+ }
+ .AboutMe .Frame {
+    border-radius: 100px;
+    margin: 25px;
+    background-color:white;
+    height: 820px;
+    width: 680px;
+    box-shadow: 10px 10px 50px black; 
+ }
+ .Circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    background-image: url("MyPic.JPG");
+    background-repeat: no-repeat;
+    background-size: 105%;
+    background-position: center top;
+ }
+ .Picture {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    margin-bottom: 5px;
+ }
+ .InfoCards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+ .Projects
+ {
+    width: 1250px;
+    background-color:white;
+    border-radius: 100px;
+    margin: 25px;
+    box-shadow: 10px 10px 50px black; 
+ }
+ .Education {
+    border-radius: 100px;
+    margin: 25px;
+    background-color:white;
+    height: 450px;
+    width: 600px;
+    box-shadow: 10px 10px 50px black; 
+ }
+ .Title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: none;
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+ 
+ }
+ .Desc {
+    display: flex;
+    flex-direction: column;
+ }
+ .EduDesc{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+ 
+ }
+ .EduDesc img {
+    width: 150px;
+    height: 100px;
+    object-fit: contain;
+    align-self: center;
+ }
+ .Leadership {
+    border-radius: 100px;
+    margin: 25px;
+    background-color:white;
+    height:450px;
+    width: 600px;
+    box-shadow: 10px 10px 50px black;
+ }
+ .TwoMain {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 15px;
+ }
+ 
+ .ProjDesc1 img {
+    height: 300px;
+    width: 400px;
+ }
+ .ProjDesc1 h3 {
+    font-size: 30px;
+    font-family: 'Indie Flower', cursive;
+ }
+ .ProjDesc2 img {
+    height: 300px;
+    width: 225px;
+ }
+ .ProjDesc2 h3 {
+    font-size: 30px;
+    font-family: 'Chewy', cursive;
+ }
+ .ProjDesc1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 30px;
+ }
+ .ProjDesc2 {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    border: none;
-    border-right: 1px solid white;
-}
-
-.bar1,.bar2,.bar3{
-    width: 25px;
-    padding:0;
-    border: none;
-    margin:2px;
-    height: 2px;
+    padding: 20px;
+    margin-bottom: 30px;
+ }
+ .Award {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+   width: 300px;
+ }
+ .Award img {
+    height: 50px;
+    width: 80px;
+ }
+ .DevButton img {
+    height: 100px;
+    width: 150px;
+    object-fit: contain;
+ }
+ .Leadership{
+    border-radius: 100px;
     background-color:white;
-}
-
-.NameBar{
-  display: flex;
-  flex-grow: 2;
-  justify-content: center;
-  align-items: center;
-  font-size: 28px;
-  font-family: 'Righteous', cursive;
-}
-
-.NavLinks {
-	margin-top: 75px;
-	display:flex;
-	color: black;
-	font-size: 20px;
-	justify-content: space-evenly;
-	
-}
-
-.Link img {
-   width: 50x;
-   height: 50px;
-   animation-name: test1;
-   animation-duration: 1s;
-   object-fit: cover;
-}
-
-@keyframes test1 {
-   0% {transform: translateX(-500px)}
-   100%{transform: translateX(0px)}
-}
-
-
-.AboutMe {
-  width: 100%;  
-  display: flex;
-  justify-content: center;
+    height: 450px;
+    width: 600px;
+    box-shadow: 10px 10px 50px black; 
+ }
+ .LeadDesc{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
  
-}
-.AboutMe .Frame {
-	border-radius: 100px;
-	margin: 25px;
-	background-color:white;
-	height: 650px;
-   width: 500px;
-   box-shadow: 10px 10px 50px black; 
-}
-.Circle {
-	width: 250px;
-	height: 250px;
-	border-radius: 50%;
-	border-style: solid;
-	border-width: 5px;
-	border-color: black;
-	background-image: url("MyPic.JPG");
-   background-repeat: no-repeat;
-   background-size: 105%;
-	background-position: center top;
-}
-.Picture {
-	display: flex;
-	justify-content: center;
-	margin: 30px;
-}
-.InfoCards {
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-   justify-content: center;
-}
-.Projects
-{
-   width: 1250px;
-   background-color:white;
-   border-radius: 100px;
-   margin: 25px;
-   box-shadow: 10px 10px 50px black; 
-}
-.Education {
-   border-radius: 100px;
-   margin: 25px;
-	background-color:white;
-	height: 450px;
-   width: 600px;
-   box-shadow: 10px 10px 50px black; 
-}
-.Title {
-   width: 100%;
-   display: flex;
-   justify-content: center;
-   margin-top: none;
-   font-size: 20px;
-   font-family: 'Righteous', cursive;
-
-}
-.Desc {
-   display: flex;
-   flex-direction: column;
-}
-.EduDesc{
-   width: 100%;
-   height: 150px;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-evenly;
-
-}
-.EduDesc img {
-   width: 150px;
-   height: 100px;
-   object-fit: contain;
-   align-self: center;
-}
-.Leadership {
-   border-radius: 100px;
-   margin: 25px;
-	background-color:white;
-	height:450px;
-   width: 600px;
-   box-shadow: 10px 10px 50px black;
-}
-.TwoMain {
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-   justify-content: space-evenly;
-   padding: 15px;
-}
-
-.ProjDesc1 img {
-   height: 300px;
-   width: 400px;
-}
-.ProjDesc1 h3 {
-   font-size: 30px;
-   font-family: 'Indie Flower', cursive;
-}
-.ProjDesc2 img {
-   height: 300px;
-   width: 225px;
-}
-.ProjDesc2 h3 {
-   font-size: 30px;
-   font-family: 'Chewy', cursive;
-}
-.ProjDesc1 {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   padding: 20px;
-   margin-bottom: 30px;
-}
-.ProjDesc2 {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   padding: 20px;
-   margin-bottom: 30px;
-}
-.Award {
-   display: flex;
-   flex-direction: row;
-   justify-content:space-evenly;
-  width: 300px;
-}
-.Award img {
-   height: 50px;
-   width: 80px;
-}
-.DevButton img {
-   height: 100px;
-   width: 150px;
-   object-fit: contain;
-}
-.Leadership{
-   border-radius: 100px;
-	background-color:white;
-	height: 450px;
-   width: 600px;
-   box-shadow: 10px 10px 50px black; 
-}
-.LeadDesc{
-   width: 100%;
-   height: 70px;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-evenly;
-
-}
-.LeadDesc img {
-   display: flex;
-   width: 150px;
-   height: 100px;
-   object-fit: contain;
-   align-self: center;
-}
-.WorkExp{
-   border-radius: 100px;
-   margin: 25px;
-	background-color:white;
-   width: 1250px;
-   box-shadow: 10px 10px 50px black; 
-}
-
-.Jobs {
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-   justify-content: space-evenly;
-   margin: 10px;
-}
-
-.WorkDesc {
-   padding: 30px;
-}
-
-.WorkDesc .TopFrame {
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-}
-
-.WorkDesc img {
-   display: flex;
-   width: 130px;
-   height: 80px;
-   object-fit: contain;
-   align-self: center;
-}
-
-.Skills {
-   width: 100%;
-   padding-right: 100px;
-   padding-left: 100px;
-   margin: 25px;
-   display: flex;
-   justify-content: center;
-   flex-direction: row;
-   flex-wrap: wrap;
-}
-
-.SkillsBox {
-   width: 100px;
-   height: 50px;
-   margin: 10px;
-   background-color: hsl(0,0%,0%, 0.3);
-   border-radius: 10px;
-}
-
-.SkillsBox p {
-   text-align: center;
-   color: white;
-   font-family: 'Abel', sans-serif;
-}
-
-@media only screen and (max-width: 815px){
-   .WorkExp, .Leadership, .Education, .Projects, .AboutMe .Frame {
-      width: 725px;
-      margin:none;
-   }
-}
+ }
+ .LeadDesc img {
+    display: flex;
+    width: 150px;
+    height: 100px;
+    object-fit: contain;
+    align-self: center;
+ }
+ .WorkExp{
+    border-radius: 100px;
+    margin: 25px;
+    background-color:white;
+    width: 1250px;
+    box-shadow: 10px 10px 50px black; 
+ }
+ 
+ .Jobs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px;
+ }
+ 
+ .WorkDesc {
+    padding: 30px;
+ }
+ 
+ .WorkDesc .TopFrame {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+ 
+ .WorkDesc img {
+    display: flex;
+    width: 130px;
+    height: 80px;
+    object-fit: contain;
+    align-self: center;
+ }
+ 
+ .Skills {
+    width: 100%;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+ }
+ 
+ .SkillsBox {
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    background-color: hsl(0,0%,0%, 0.3);
+    border-radius: 10px;
+ }
+ 
+ .SkillsBox p {
+    text-align: center;
+    color: white;
+    font-family: 'Abel', sans-serif;
+ }
+ 
+ @media only screen and (max-width: 815px){
+    .WorkExp, .Leadership, .Education, .Projects, .AboutMe .Frame {
+       width: 725px;
+       margin:none;
+    }
+ }
